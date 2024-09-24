@@ -10,14 +10,15 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Travel Agency</title>
   </head>
-  <h1 class="text-warning">Just travel Agency</h1>
+
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header custom-bg>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary custom-bg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand text-color" href="#">Just Travel</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -32,20 +33,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active text-color"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-color" href="#">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-color"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Services
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -57,7 +63,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link text-color" href="#">Contact</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -67,7 +73,7 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-success text-color" type="submit">
                 Search
               </button>
             </form>
@@ -75,8 +81,404 @@
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                height="500"
+                src="https://t4.ftcdn.net/jpg/03/19/74/61/360_F_319746107_n99b20pTyXt8xYJXQqVBI5dJVttUANFn.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                height="500"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEWBvQa88rYgY3aEy2ILrucMxfeErvacyGQ&s"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                height="500"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyoO7EU6NBh_qmQHE7zyDTKb9kCySmcc66Nw&s"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <main>
+          <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">About</h1>
+                <p class="lead text-body-secondary">
+                  Something short and leading about the collection below—its
+                  contents, the creator, etc. Make it short and sweet, but not
+                  too short so folks don't simply skip over it entirely.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="images/air big 3.jpg" alt="">
+                    
+                      <title>Placeholder</title>
+
+                      
+                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                        Who are we?
+                      </text>
+                    </svg>
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="images/air big 2.webp" alt="">
+                    
+                      <title>Placeholder</title>
+                      
+                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                        Vision
+                      </text>
+                    </svg>
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="images/air big 4.jpg" alt="">
+                    
+                      <title>Placeholder</title>
+
+                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                        Mission
+                      </text>
+                    </svg>
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="images/air2.jpg" alt="">
+                    <svg
+                      class="bd-placeholder-img card-img-top"
+                      width="100%"
+                      height="225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      role="img"
+                      aria-label="Placeholder: Thumbnail"
+                      preserveAspectRatio="xMidYMid slice"
+                      focusable="false"
+                    >
+                      <title>Placeholder</title>
+                      <rect width="100%" height="100%" fill="brown"></rect>
+                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                        Safety
+                      </text>
+                    </svg>
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="images/air4.jpg" alt="">
+                    
+                      <title>Placeholder</title>
+                      
+                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                        OUR TEAM
+                      </text>
+                    </svg>
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="images/air big 3.jpg" alt="">
+                    
+                      <title>Placeholder</title>
+                      <rect width="100%" height="100%" fill="red"></rect>
+                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                        HISTORY
+                      </text>
+                    </svg>
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+      <section>
+        <header>
+          <div
+            class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"
+          ></div>
+
+          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Services</h1>
+            <p class="fs-5 text-body-secondary">
+              Quickly build an effective pricing table for your potential
+              customers with this Bootstrap example. It's built with default
+              Bootstrap components and utilities with little customization.
+            </p>
+          </div>
+        </header>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $0<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary"
+                >
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $15<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Contact
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div>
+          <h3 class="contact-h1">Contact Us</h3>
+        </div>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center p-4 my-4 border-top footer-bg"
+    >
+      <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+
+      <a
+        href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+      >
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+        </li>
+      </ul>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

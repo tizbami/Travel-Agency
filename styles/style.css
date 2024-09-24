@@ -1,0 +1,22 @@
+.custom-bg {
+  background-color: #ff8411 !important;
+}
+.text-color {
+  color: white !important;
+}
+
+.footer-bg {
+  background-color: aquamarine !important;
+}
+
+.contact-h1 {
+  text-align: center;
+  font-size: 43px;
+  padding-bottom: 55px;
+}
+
+
+.images-services {
+ 
+  width: 50px;
+}
