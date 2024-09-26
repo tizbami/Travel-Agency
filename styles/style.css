@@ -1,12 +1,15 @@
 .custom-bg {
-  background-color: #ff8411 !important;
+  background-color: rgb(63, 108, 88) !important;
 }
 .text-color {
   color: white !important;
 }
 
+
+
 .footer-bg {
-  background-color: aquamarine !important;
+  background-color: rgb(63, 108, 88) !important;
+ 
 }
 
 .contact-h1 {
@@ -15,8 +18,59 @@
   padding-bottom: 55px;
 }
 
-
 .images-services {
- 
   width: 50px;
+}
+
+.text-middle {
+  font-size: 35px;
+  text-align: center;
+}
+
+/* .text-who {
+  font-size: 50px;
+} */
+
+.text-bob {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#mission {
+  background-color: rgb(63, 108, 88) !important;
+}
+.green {
+}
+
+.color-contact {
+  color: black !important;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.contact-p {
+  color: black !important;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.locate {
+  padding-left: 20px;
+}
+.section-background {
+  background-color: #dbd4d4 !important;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.caro-img {
+  width: 100%;
+  height: 300px;
+}
+
+.about {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 80px;
 }
